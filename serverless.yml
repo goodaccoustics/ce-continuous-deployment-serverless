@@ -3,10 +3,10 @@ frameworkVersion: "3"
 
 provider:
   name: aws
-  architecture: nodejs18.x
+  runtime: nodejs18.x
   region: us-east-1
 
-function:
+functions:
   api:
     handler: index.handler
     events:
