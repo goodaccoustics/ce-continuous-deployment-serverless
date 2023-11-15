@@ -1,0 +1,15 @@
+service: ce-continuous-deployment-serverless
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  architecture: nodejs18.x
+  region: us-east-1
+
+function:
+  api:
+    handler: index.handler
+    events:
+      - httpApi:
+          path: /
+          method: get
