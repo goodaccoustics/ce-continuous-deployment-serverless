@@ -1,2 +1,25 @@
 # ce-continuous-deployment-serverless
-# on zoom with Del, following his congenial-palm-tree app
+***
+Validate
+  - serverless package
+***
+
+***
+Deploy command
+  - serverless deploy
+***
+
+***
+AWS Console
+  - CloudFormation
+  - AWS Lambda
+***
+
+***
+AWS Lambda
+  - Functions
+  - Application Name
+  - Configuration
+  - Triggers
+  - API Endpoint
+***
